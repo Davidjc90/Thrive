@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     <title>Transact</title>
+     <style>
+     * {
+          -ms-text-size-adjust: 100%;
+         -webkit-text-size-adjust: 100%;
+      }
+      body{
+          margin: 0;
+          background-color: #f5f5f5;
+          font-family: 'Montserrat', Arial, sans-serif;
+      }
+      table{
+          border-spacing: 0;
+      }
+      td{
+          padding: 0;
+      }
+      img{
+          border: 0;
+      }
+      .wrapper{
+          width: 100%;
+          table-layout: fixed;
+      }
+      .main{
+          width: 100%;
+          max-width: 800px;
+          margin: 0 auto;
+          color: #2b2b2b;
+          background-color: #f5f5f5;
+      }
+      .first_item{
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 0px 8px 35px 0px rgba(0, 0, 0, 0.08);
+        padding: 25px;
+      }
+      .headline1{
+        font-size: 71px;
+        line-height: 71px;
+        font-weight: 500;
+        font-family: 'Montserrat', Arial, sans-serif;
+      }
+      .headline3{
+        font-size: 24px;
+         line-height: 30px;
+         letter-spacing: 0.5px;
+         font-weight: 500;
+         font-family: 'Montserrat', Arial, sans-serif;
+      }
+      .headline2{
+        font-size: 34px;
+        line-height: 34px;
+        font-weight: 500;
+        font-family: 'Montserrat', Arial, sans-serif;
+        padding-top: 25px;
+        padding-bottom: 25px;
+      }
+      .content_card{
+        padding: 0px 35px 0px 35px;
+      }
+      .content-item{
+        padding-top: 35px;
+        padding-bottom: 35px;
+      }
+      .headline4{
+        font-size: 25px;
+        line-height: 25px;
+        font-weight: 500;
+      }
+      .headline5{
+          font-size: 20px;
+          line-height: 20px;
+          color: #757575;
+      }
+      .detail{
+        color: #0b0b0b;
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 600;
+      }
+      .button{
+        color: #ffffff;
+        background-color: /*#0b0b0b*/ #454242;
+        padding: 18px 35px 18px 35px;
+        text-decoration: none;
+        border-radius: 35px;
+        border: none;
+        font-weight: 700;
+      }
+      .button, a{
+        text-decoration: none;
+        color:#ffffff;
+      }
+      .paragraph{
+        font-size: 15px;
+        line-height: 25px;
+        padding-bottom: 15px;
+      }
+      .help-spot{
+        border-radius: 25px;
+      }
+      .footer{
+        background-color: #0b0b0b; 
+        color: #ffffff;
+        padding: 18px 35px 18px 35px;
+        /*border-radius: 35px;*/
+      }
+      .footer-heading{
+        padding-top: 20px;
+      }
+      .footer-paragraph{
+        font-size: 12px;
+      }
+      
+      .social-footer{
+        padding: 0;
+      }
+      .list-footer{
+        list-style: none;
+        display: inline-block;
+      }
+      .list-footer ,a {
+        padding: 3px;
+      }
+       /*Media Query*/
+      @media screen and (max-width:500px) {
+        .main{
+          padding: 15px !important;
+        }
+        .first_item{
+          padding: 15px !important ;
+        }
+        .headline1{
+          font-size: 48px !important;
+          line-height: 48px!important;
+        }
+        .headline3{
+          font-size: 16px !important;
+         line-height: 22px !important;
+        }
+         .column-content{
+          display: block;
+          width: 100%;
+          max-width: 100% !important;
+          direction: ltr !important;
+          padding-bottom: 25px;
+         }
+         .help-spot{
+          padding-top: 30px;
+          width: 100%;
+          max-width: 100%;
+         }
+         .content-item{
+            padding-bottom: 15px;
+         }
+
+         .content_card{
+          padding: 0px 5px 0px 5px !important;
+         }
+      }
+     </style>
+</head>
+<body>
+     <center class="wrapper">
+       <table class="main">
+           <!--Logo header-->
+           <tr>
+            <td width="100%" align="center">
+              <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation"> 
+                <tr>
+                    <td width="100%" align="center" style="padding-top: 25px;">
+                        <img src="https://i.ibb.co/yVNgH7D/logo.png"
+                          width="180"  role="presentation" style="max-width: 100%;"
+                        alt="hims">
+                    </td>
+                </tr>
+              </table>
+            </td>
+           </tr>
+           <!--Logo header-->
+           <!--Hero area-->
+             <tr>
+                <td width="100%" align="center" style="padding-top: 45px;">
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation"> 
+                     <tr>
+                        <td width="100%" align="center">
+                           <h1 class="headline1">
+                             Health goals :
+                              <br>
+                             <span style="color:#74eb34">check</span>
+                           </h1>
+                           <h3 class="headline3">
+                            Way to make it happen. Your order is in <br>
+                            the works—just enough time to get to <br>
+                             know your new digs.
+                           </h3>
+                        </td>
+                     </tr>
+                  </table>
+                </td>
+             </tr>
+           <!--Hero area-->
+
+           <!--First item-->
+           <tr>
+              <td width="100%" style="padding-top:35px; padding-bottom: 35px;">
+                 <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" class="first_item" >
+                   <tr>
+                    <td width="100%" align="center">
+                      <h2 class="headline2">
+                        All Yours. <span style="color:#74eb34;">All the time.</span>
+                      </h2>
+                      <img src="https://i.ibb.co/Zh8kqMX/package.jpg" 
+                      width="650px"
+                      style="max-width: 100%;"
+                      alt="">
+                    </td>
+                   </tr>
+                 </table>
+              </td>
+           </tr>
+           <!--First item-->
+
+           <!--Second item-->
+           <tr>
+             <td width="100%">
+               <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" class="first_item">
+                   <tr>
+                    <td width="100%"  class="content_card">
+                        <h4 class="headline4">Order details</h4>
+                        <table width="100%">
+                          <td width="50%"  valign="top" class="column-content" >
+                            <h5 class="headline5">Order Id</h5>
+                            <p class="detail"><span style="text-decoration:underline">0004553298</span></p>
+                            <br>
+                            <h5 class="headline5">Total Charge</h5>
+                            <p class="detail">$120.00</p>
+                           </td>
+                           <td width="50%"  valign="top" class="column-content" >
+                            <h5 class="headline5">Date Order</h5>
+                            <p class="detail">10/5/23</p>
+                            <br>
+                            <h5 class="headline5">Payment Method</h5>
+                            <p class="detail">Visa **8984</p>
+                           </td>
+                         </table>
+                    </td>
+                   </tr>
+               </table>
+             </td>
+           </tr>
+           <!--Second item-->
+
+           <!--Third item-->
+           <tr>
+            <td width="100%" class="content-item">
+              <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" class="first_item">
+                  <tr>
+                   <td width="100%"  class="content_card">
+                       <table width="100%">
+                         <td width="50%"  valign="top" class="column-content"  >
+                           <h5 class="headline5">Help’s always in <br><br> your corner</h5>
+                           <p class="paragraph">Looking for answers? The <br> Help Spot has you covered</p>
+                           <br>
+                           <button class="button">
+                            <a href="#">Let's go</a>
+                           </button>
+                           <br>
+                          </td>
+                          <td width="50%"  valign="top" class="column-content"  >
+                           <img src="https://i.ibb.co/wBLmDQQ/looking-more.jpg" class="help-spot" width='340' alt="">
+                          </td>
+                        </table>
+                   </td>
+                  </tr>
+              </table>
+            </td>
+          </tr>
+           <!--Third item-->
+       </table>
+       <!--Fourth Item-->
+            <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" class="footer">
+              <tr>
+                <td align="center">
+                   <table width="100%">
+                     <tr>
+                      <td width="100%" align="center">
+                        <h3 class="footer-heading">Future you thanks you.
+                      </td>
+                     </tr>
+                     <tr>
+                      <td width="100%" align="center">
+                        <ul class="social-footer">
+                          <li class="list-footer">
+                            <a href="">
+                              <img src="https://i.ibb.co/qdsP587/facebook.webp" width="45" alt="">
+                            </a>
+                          </li>
+                          <li class="list-footer">
+                            <a href="">
+                              <img src="https://i.ibb.co/42tMKgY/instagram.webp" width="45" alt="">
+                            </a>
+                          </li>
+                          <li class="list-footer" >
+                            <a href="">
+                              <img src="https://i.ibb.co/yhD1PZD/twitter.webp" width="45" alt="">
+                            </a>
+                          </li>
+                          <li class="list-footer">
+                            <a href="">
+                              <img src="https://i.ibb.co/8Dvj0Kz/tik-tok.webp" width="45" alt="">
+                            </a>
+                          </li>
+                        </ul>
+                      </td>
+                     </tr>
+                     <tr>
+                      <td width="100%" align="center">
+                          <p class="footer-paragraph">
+                            2109 Palmdale Street #727 | San Francisco | CA 94001
+                          </p>
+                      </td>
+                     </tr>
+                     <tr>
+                      <td width="100%" align="center">
+                          <p class="footer-paragraph">
+                            Thrive Health: <a href="#" style="color: #ffffff;">privacy policy </a>| <a href="#" style="color: #ffffff;"> terms of service </a>
+                          </p>
+                      </td>
+                     </tr>
+                   </table>
+                </td>
+              </tr>
+            </table>
+       <!--Fourth Item-->
+     </center>
+</body>
+</html>
